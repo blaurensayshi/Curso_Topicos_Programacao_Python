@@ -1,4 +1,10 @@
-x = int(input("Digite um número"))
+"""
+
+Caluladora de Tabuada
+
+"""
+
+x = int(input("Digite um número: "))
 n = 0
 
 while n<=10:
