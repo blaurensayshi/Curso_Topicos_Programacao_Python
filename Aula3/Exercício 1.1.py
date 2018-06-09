@@ -13,9 +13,9 @@ def Fibonacci(numero):
     if numero == 1:
         return 1
     else:
-        return Fibonacci (numero -1) + Fibonacci (numero-2)
+        return Fibonacci (numero - 1) + Fibonacci (numero - 2)
 
-x = int(input("Digite um número para calcular"))
+x = int(input("Digite um número para calcular: "))
 res = Fibonacci(x)
 y = 0
 
