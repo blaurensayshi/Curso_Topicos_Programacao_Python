@@ -2,7 +2,7 @@
 Programa que diz a categoria de um produto de acordo com seu preço
 """
 
-a = input("Digite o preço do produto:")
+a = input("Digite o preço do produto: ")
 
 if a == '10':
     print("Categoria 1")
