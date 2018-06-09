@@ -10,4 +10,4 @@ minutos = m//60;
 seg = minutos*60;
 segundos = m-seg;
 
-print ("horas:", horas,"\n minutos:", minutos, "\n segundos:",segundos)
+print ("horas:", horas,"\nminutos:", minutos, "\nsegundos:",segundos)
