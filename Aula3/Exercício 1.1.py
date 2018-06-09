@@ -3,14 +3,14 @@
 Número de Fibonacci
 
 Fn = Fn-1
-F1 = 1 ; F2 = 1
+F0 = 0 ; F1 = 1
 
 """
 
 def Fibonacci(numero):
     if numero == 0:
         return 0
-    if numero == 1 or numero == 2:
+    if numero == 1:
         return 1
     else:
         return Fibonacci (numero -1) + Fibonacci (numero-2)
