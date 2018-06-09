@@ -2,7 +2,7 @@
 
 Número de Fibonacci
 
-Fn = Fn-1
+Fn = Fn-1 + Fn-2
 F0 = 0 ; F1 = 1
 
 """
